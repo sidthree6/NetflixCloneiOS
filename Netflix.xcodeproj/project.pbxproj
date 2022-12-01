@@ -12,6 +12,10 @@
 		9EF173C729382A99009855A0 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF173C629382A99009855A0 /* MainTabBarViewController.swift */; };
 		9EF173CC29382A9A009855A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF173CB29382A9A009855A0 /* Assets.xcassets */; };
 		9EF173CF29382A9A009855A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF173CD29382A9A009855A0 /* LaunchScreen.storyboard */; };
+		9EF173D829382FDB009855A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF173D729382FDB009855A0 /* HomeViewController.swift */; };
+		9EF173DA29383050009855A0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF173D929383050009855A0 /* SearchViewController.swift */; };
+		9EF173DC2938307D009855A0 /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF173DB2938307D009855A0 /* UpComingViewController.swift */; };
+		9EF173DE293830AB009855A0 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF173DD293830AB009855A0 /* DownloadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9EF173CB29382A9A009855A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EF173CE29382A9A009855A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EF173D029382A9A009855A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF173D729382FDB009855A0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9EF173D929383050009855A0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9EF173DB2938307D009855A0 /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		9EF173DD293830AB009855A0 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		9EF173C129382A99009855A0 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
+				9EF173D629382F61009855A0 /* Controllers */,
 				9EF173C229382A99009855A0 /* AppDelegate.swift */,
 				9EF173C429382A99009855A0 /* SceneDelegate.swift */,
 				9EF173C629382A99009855A0 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				9EF173D029382A9A009855A0 /* Info.plist */,
 			);
 			path = Netflix;
+			sourceTree = "<group>";
+		};
+		9EF173D629382F61009855A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9EF173D729382FDB009855A0 /* HomeViewController.swift */,
+				9EF173D929383050009855A0 /* SearchViewController.swift */,
+				9EF173DB2938307D009855A0 /* UpComingViewController.swift */,
+				9EF173DD293830AB009855A0 /* DownloadViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF173DA29383050009855A0 /* SearchViewController.swift in Sources */,
 				9EF173C729382A99009855A0 /* MainTabBarViewController.swift in Sources */,
 				9EF173C329382A99009855A0 /* AppDelegate.swift in Sources */,
+				9EF173DE293830AB009855A0 /* DownloadViewController.swift in Sources */,
 				9EF173C529382A99009855A0 /* SceneDelegate.swift in Sources */,
+				9EF173DC2938307D009855A0 /* UpComingViewController.swift in Sources */,
+				9EF173D829382FDB009855A0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

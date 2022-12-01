@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DownloadViewController.swift
 //  Netflix
 //
 //  Created by Sidd Panchal on 2022-11-30.
@@ -7,14 +7,13 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController {
+class DownloadViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemMint
-    }
 
+        view.backgroundColor = .systemIndigo
+    }
+    
 
 }
-

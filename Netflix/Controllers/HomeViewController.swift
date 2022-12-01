@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Netflix
 //
 //  Created by Sidd Panchal on 2022-11-30.
@@ -7,14 +7,12 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemMint
+
+        view.backgroundColor = .systemRed
     }
 
-
 }
-
